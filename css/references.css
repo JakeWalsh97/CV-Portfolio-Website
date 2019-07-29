@@ -1,0 +1,37 @@
+#referencesSection {
+    padding-top: 10em;
+    border-bottom: .4em solid gainsboro;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:5em;
+    background-image: url('../img/referencesWallpaper.jpg');
+}
+
+.referencesTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.functionality {
+    background-color: cornsilk;
+    width: 50%;
+}
+
+.linkTest {
+    color: blue;
+    text-decoration: underline;
+}
+
+.w3schoolsTable {
+    margin-bottom: 2em;
+}

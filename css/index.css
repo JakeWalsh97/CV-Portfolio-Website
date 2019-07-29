@@ -1,0 +1,639 @@
+.navbar-default {
+    border-bottom: .4em solid black;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: white;
+}
+
+.search-container {
+  float: center;
+}
+
+#brand {
+    border-right: .10em solid black;
+    font-size: 1.5em;
+    color: black;
+    margin: .5em;
+}
+
+#myNavbar {
+  width: 100%;
+}
+
+#navButtons {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width:7.75em; 
+    color:black; 
+    border: .10em solid black; 
+    margin-right: .2em;
+    text-align: center;
+}
+
+#navButtons1 { 
+    width: 6em; 
+    color:black; 
+    border: .10em solid black; 
+    margin-right: .5em;
+}
+
+#welcome {
+    padding-top: 10em;
+    border-bottom: .4em solid gainsboro;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:5em;
+    background-image: url('../img/wallpaper.jpg');
+}
+
+.welcomeText {
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    color: white;
+}
+
+.introText {
+    border: .25em solid white;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: black;
+    color: white;
+}
+
+#carouselPictures {
+    width: 100em;
+}
+
+.aboutMeTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    padding-bottom: .5em;
+    text-align: left;
+    margin-left: 8em;
+}
+
+.aboutMeCarouselTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    padding-bottom: .5em;
+    text-align: right;
+    margin-right: 3em;
+}
+
+#about {
+    border-bottom: .4em solid gainsboro;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/aboutBackground.jpg');
+}
+
+#infoAboutMe {
+    font-size: 1.1em;
+}
+
+#education {
+    border-bottom: .4em solid gainsboro;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/educationBackground.jpg');
+}
+
+.column {
+    margin-left:1.5em;
+    float: left;
+    width: 23%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.educationTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+}
+
+.collegeYearByYearTitle {
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+#yearColumn {
+    height: 70em;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tableRowBplus {
+    background-color: greenyellow;
+}
+
+.tableRowB {
+    background-color: yellowgreen;
+}
+
+.tableRowBminus {
+    background-color: yellow;
+}
+
+.tableRowA {
+    background-color: green;
+}
+
+.tableRowNA {
+    background-color: orange;
+}
+
+.modules {
+    background-color: cornsilk;
+}
+
+#skills {
+    border-bottom: .4em solid gainsboro;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/skillsBackground.jpg');
+}
+
+.skillsTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+}
+
+.proficiencyTitle {
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+.skills {
+    text-align: right;
+    padding: 10px;
+    color: white;
+  }
+  
+  .htm {width: 93%; background-color: #4CAF50;}
+  .cs {width: 87%; background-color: #429be4;}
+  .java {width: 91%; background-color: #f44336;}
+  .cplusplus {width: 75%; background-color: #0eca82;}
+  .csharp {width: 78%; background-color: #1f47f7;}
+  .sql {width: 82%; background-color: #c0ae0a;}
+  .javascript {width: 70%; background-color: #a50776;}
+  .spring {width: 80%; background-color: #038514;}
+  .azure {width: 77%; background-color: #b82906;}
+  .linux {width: 72%; background-color: #f808e4;}
+  .maven {width: 84%; background-color: #8a8702;}
+  .angular {width: 75%; background-color: #196aff;}
+
+  .skillsContainer {
+    width: 100%;
+    background-color: #ddd;
+  }
+
+  .skillsTable {
+      background-color: black;
+      padding: 1.5em;
+      border: .25em solid white;
+      margin-right: 2em;
+      margin-left: 2em;
+  }
+
+  .skillsTableTypeTitle {
+      color: white;
+      text-align: center;
+  }
+
+  .skillTypeHTML {
+    margin-top: 1em;
+    color: #4CAF50;
+  }
+
+  .skillTypeCSS {
+    margin-top: 1em;
+    color: #429be4;
+  }
+
+  .skillTypeJava {
+    margin-top: 1em;
+    color: #f44336;
+  }
+
+  .skillTypeCPlusPlus {
+    margin-top: 1em;
+    color: #0eca82;
+  }
+
+  .skillTypeCSharp {
+    margin-top: 1em;
+    color: #1f47f7;
+  }
+
+  .skillTypeSQL {
+    margin-top: 1em;
+    color: #c0ae0a;
+  }
+
+  .skillTypeJS {
+    margin-top: 1em;
+    color: #a50776;
+  }
+
+  .skillTypeSpring {
+    margin-top: 1em;
+    color: #038514;
+  }
+
+  .skillTypeAzure {
+    margin-top: 1em;
+    color: #b82906;
+  }
+
+  .skillTypeLinux {
+    margin-top: 1em;
+    color: #f808e4;
+  }
+
+  .skillTypeAngular {
+    margin-top: 1em;
+    color: #196aff;
+  }
+
+  .skillTypeMaven {
+    margin-top: 1em;
+    color: #8a8702;
+  }
+
+  #experience {
+    border-bottom: .4em solid gainsboro;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/experience.jpg');
+  }
+
+  .experienceTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+  }
+
+  .internshipTitle {
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    padding-bottom: .5em;
+  }
+
+  #internshipOverview {
+    margin-left: 1em;
+  }
+
+  #internshipOverviewTitle {
+    font-size: 2.5em;
+    color: black; 
+    border-bottom: .05em solid black;
+  }
+
+  #internshipOverviewTable {
+      border: .25em solid black;
+  }
+
+  .homesTeamListFormat {
+    display:table;
+    margin:0 auto;
+  }
+
+  .homesTeamList {
+    text-align: left;
+    font-size: 1.1em;
+  }
+
+  .internshipOverviewParagraph {
+    color: black;
+    text-align: center;
+    font-size: 1.25em;
+  }
+
+  .toolsListFormat {
+    display:table;
+    margin-left: 20em;
+  }
+
+  .toolsList {
+    text-align: left;
+    font-size: 1.1em;
+  }
+
+  #ompProjectTitle {
+    font-size: 2.5em;
+    color: white; 
+    border-bottom: .05em solid black;
+    background-color: #7D2B9A;
+  }
+
+  #OMP-Calculator-Project-Table {
+    border: .25em solid black;
+    background-color: #7D2B9A;
+  }
+
+  .ompCalculatorParagraph {
+    border: .10em solid white;
+    padding: 1em;
+    background-color: black;
+    color: white;
+  }
+
+  .ompSummary {
+      color: white;
+      padding-bottom: .25em;
+  }
+
+  #more1 {display: none;}
+  #more2 {display: none;}
+  #more3 {display: none;}
+  #more4 {display: none;}
+  #more5 {display: none;}
+
+  #remoteServerProjectTitle {
+    font-size: 2.5em;
+    color: white; 
+    border-bottom: .05em solid black;
+    background-color: #C03495;
+  }
+
+  #remote-server-Project-Table {
+    border: .25em solid black;
+    background-color: #C03495;
+  }
+
+  .remoteServerParagraph {
+    border: .10em solid white;
+    padding: 1em;
+    background-color: black;
+    color: white;
+  }
+
+  #projects {
+    border-bottom: .4em solid gainsboro;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/projectsBackground.jpg');
+  }
+
+  .projectsTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+  }
+
+  #secondYearProject {
+      border: .25em solid black;
+  }
+
+  #secondYearProjectTitle {
+    font-size: 2.5em;
+    color: black; 
+    border-bottom: .05em solid black;
+  }
+
+  .projectSummary {
+    color: black;
+    padding-bottom: .25em;
+  }
+
+  .videoGameStoreParagraph {
+    border: .10em solid black;
+    padding: 1em;
+    background-color: gainsboro;
+    color: black;
+  }
+
+  .videoGameStoreCustomList {
+    float: left;
+    margin-left: 1em;
+  }
+
+  #projects2 {
+    border-bottom: .4em solid gainsboro;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/project2Background.jpg');
+  }
+
+  .fourthYearProjectTools {
+    float: center;
+  }
+
+  #hobbies {
+    border-bottom: .4em solid gainsboro;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/hobbiesBackground.jpg');
+  }
+
+  .hobbiesTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    padding-bottom: 1em;
+  }
+
+  .hobbiesRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    border: .25em solid black;
+    background-color: white;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .hobbiesColumn {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .hobbiesColumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    border: .10em solid black;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .hobbiesColumn {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .hobbiesColumn {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .hobbiesColumnTitle {
+      color: black;
+      text-align: center;
+      padding: .5em;
+      border: .10em solid black;
+  }
+
+  #footer {
+    border-bottom: .4em solid black;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/footerBackground.jpg');
+  }
+
+  .footerTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+  }
+
+  .footerGetInTouchTitle {
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    padding-bottom: .5em;
+  }
+
+  #linkedinPanel {
+    background-color: lightskyblue;
+    border-bottom: .25em solid black;
+  }
+
+  #githubPanel {
+    background-color: lightgreen;
+    border-bottom: .25em solid black;
+  }
+
+  #facebookPanel {
+    background-color: #60d9f7;
+    border-bottom: .25em solid black;
+  }
+
+  #cvPanel {
+    background-color: gold;
+    border-bottom: .25em solid black;
+  }
+
+  .contactTitle {
+    color: black;
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: .5em;
+  }
+
+  .contactImg {
+    border: .10em solid black;
+  }
+
+  #emailPanel {
+    background-color: rgb(228, 15, 15);
+    border-bottom: .25em solid black;
+  }
