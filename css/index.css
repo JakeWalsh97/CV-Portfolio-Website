@@ -185,12 +185,16 @@ td, th {
     background-color: yellow;
 }
 
+.tableRowCplus {
+  background-color: orange;
+}
+
 .tableRowA {
     background-color: green;
 }
 
 .tableRowNA {
-    background-color: orange;
+    background-color: orangered;
 }
 
 .modules {
